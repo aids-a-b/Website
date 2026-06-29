@@ -160,7 +160,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const handleHashChange = () => {
 
-        const hash = window.location.hash || '#home';
+        let hash = window.location.hash || '#teaching';
+
+        if (!document.querySelector(hash)) {
+            hash = '#teaching';
+        }
 
         switchTab(hash);
 
