@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Exception Diagnostic Overlay Catcher -->
+    <script>
+    window.addEventListener('error', function(e) {
+        setTimeout(function() {
+            var div = document.createElement('div');
+            div.style.position = 'fixed';
+            div.style.top = '0';
+            div.style.left = '0';
+            div.style.width = '100%';
+            div.style.backgroundColor = '#ef4444';
+            div.style.color = '#ffffff';
+            div.style.padding = '24px';
+            div.style.zIndex = '9999999';
+            div.style.fontFamily = 'monospace';
+            div.style.fontSize = '14px';
+            div.style.lineHeight = '1.5';
+            div.style.boxShadow = '0 10px 30px rgba(0,0,0,0.5)';
+            div.innerHTML = '<h3 style="margin-bottom:8px;">⚠️ JavaScript Runtime Exception Detected</h3>' +
+                            '<strong>Message:</strong> ' + e.message + '<br>' +
+                            '<strong>Source:</strong> ' + e.filename + '<br>' +
+                            '<strong>Line/Col:</strong> ' + e.lineno + ':' + e.colno + '<br>' +
+                            '<strong>Stack:</strong> <pre style="margin-top:8px; white-space:pre-wrap; font-size:12px; background:rgba(0,0,0,0.2); padding:10px; border-radius:4px;">' + (e.error ? e.error.stack : 'N/A') + '</pre>';
+            document.body.appendChild(div);
+        }, 100);
+    });
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics+AI · Suman Dutta Research Group</title>
+    
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Physics+AI Group led by Suman Dutta at Amrita Vishwa Vidyapeetham. Exploring physics at the interface of artificial intelligence, active matter, and collective intelligence.">
+    <meta property="og:title" content="Physics+AI · Suman Dutta Research Group">
+    <meta property="og:description" content="Exploring physics at the interface of artificial intelligence, active matter, and collective intelligence.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Interactive Canvas background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Ambient Glow Background Spheres -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+    <!-- Floating Glassmorphic Header -->
+    <header class="main-header">
+        <div class="nav-wrapper">
+            <a href="#home" class="logo">
+                Physics<span>+AI</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#teaching" class="nav-link active">Teaching</a></li>
+                    <li><a href="#classroom" class="nav-link">Classroom</a></li>
+                    </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+                    <span>☀️</span>
+                </button>
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Open Navigation Menu">
+                    ☰
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="app-container">
+        
+        <!-- ==================== 1. HOME SECTION ==================== -->
+        
+
+        <!-- ==================== 2. RESEARCH SECTION ==================== -->
+        
+
+        <!-- ==================== 3. PUBLICATIONS SECTION ==================== -->
+        
+
+        <!-- ==================== 4. TEACHING SECTION ==================== -->
+        <section id="teaching" class="page-content active">
+            <div class="section-intro reveal">
+                <h2 class="section-title">Teaching & <span class="accent-text">Pedagogy Philosophy</span></h2>
+                <p class="sub-title">Emphasizing Active Learning, Project-Based Assessments, and Interdisciplinary Thinking.</p>
+            </div>
+                
+                <div class="course-grid reveal" style="margin-bottom: 32px;">
+                    <div class="course-card-premium">
+                        <div class="course-info-section">
+                            <h3>Mathematics for Intelligent Systems-I</h3>
+                            <p class="course-card-meta">23MAT106 · Fall 2025 · 133 Students</p>
+                            <p class="course-card-desc">Linear Algebra, Ordinary Differential Equations, Probability Distributions, and basics of Quantum Computing.</p>
+                        </div>
+                        <div class="course-stat-badge">
+                            <span class="stat-number">95.41%</span>
+                            <span class="stat-label">TLP Feedback</span>
+                        </div>
+                    </div>
+
+                    <div class="course-card-premium">
+                        <div class="course-info-section">
+                            <h3>Introduction to Material Informatics</h3>
+                            <p class="course-card-meta">23CHY115 · Spring 2026 · 129 Students</p>
+                            <p class="course-card-desc">Molecular Dynamics simulations, atomic structures, property screening, and materials discovery using AI models.</p>
+                        </div>
+                        <div class="course-info-section">
+                            <h3>Mathematics for Intelligent Systems 3</h3>
+                            <p class="course-card-meta">23MAT204 · Fall 2025 · BTech AID</p>
+                            <p class="course-card-desc">Advanced intelligent systems modeling and applied mathematics.</p>
+                        </div>
+
+                        <div class="course-stat-badge">
+                            <span class="stat-number">94.39%</span>
+                            <span class="stat-label">TLP Feedback</span>
+                        </div>
+                    </div>
+
+                    <div class="course-card-premium">
+                        <div class="course-info-section">
+                            <h3>Research Methodology</h3>
+                            <p class="course-card-meta">PHY501 · Postgraduate Advisory</p>
+                            <p class="course-card-desc">Developing robust frameworks for high-performance computing research pipelines and data integrity.</p>
+                        </div>
+                        <div class="course-stat-badge">
+                            <span class="stat-number" style="font-size: 20px; font-weight: 700; margin-top: 4px;">DIRECT</span>
+                            <span class="stat-label">Advisory</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel-card" style="margin-bottom: 32px;">
+                    <h3>Academic Mentorship & Supervision</h3>
+                    <ul style="padding-left: 20px;">
+                        <li style="margin-bottom: 8px;"><strong>Research Interns:</strong> A. Jagdish, School of Physical Sciences, Amrita (06/2025 onwards).</li>
+                        <li style="margin-bottom: 8px;"><strong>Masters Thesis Co-supervision:</strong> Magnus Olsen, Norwegian University of Science and Technology (Co-advisor; NTNU, since 08/2025). Research Topic: <i>Understanding Non-Newtonian Materials</i>.</li>
+                        <li style="margin-bottom: 8px;"><strong>Student Collaborators:</strong>
+                            <ul style="padding-left: 20px; margin-top: 6px;">
+                                <li>A. Harish (Department of Mathematics, Amrita, 06/2025 onwards)</li>
+                                <li>A. Venkatraman (Department of Mathematics, Amrita, 06/2025 onwards)</li>
+                                <li>P. S. Mrudula (Department of Artificial Intelligence, Amrita, 11/2025 onwards)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="panel-card" style="border-left: 4px solid var(--accent-ai-solid);">
+                    <h3>Our Pedagogical Philosophy</h3>
+                    <p style="font-style: italic; font-size: 15px; margin-bottom: 12px;">"Education is not the learning of facts, but the training of the mind to think." — Albert Einstein</p>
+                    <p>Our classroom environments focus heavily on **Active Learning** (moving past lectures to live notebooks, modeling sandbox workshops, and interactive coding) and **Interdisciplinary Bridging** (empowering students to observe identical mathematical operators connecting quantum computing states and deep neural networks).</p>
+                </div>
+        </section>
+
+        <!-- ==================== 5. CLASSROOM SECTION (RESTRICTED) ==================== -->
+        <section id="classroom" class="page-content">
+            <!-- LOCK SCREEN -->
+            <div id="password-prompt-container" class="password-section">
+                <span class="password-icon">🔒</span>
+                <h3>Access Restricted</h3>
+                <p style="color: var(--text-secondary); font-size: 13.5px; margin-top: 6px;">Please enter your classroom credentials passcode to view slides, timetables, and lecture notes.</p>
+                <form id="password-form" class="password-input-group">
+                    <input type="password" id="passcode-input" placeholder="••••••••" required>
+                    <button type="submit" class="btn-unlock">Authenticate Portal</button>
+                </form>
+                <div id="password-error-message" class="password-error-message"></div>
+                
+                <div class="password-hint">
+                    💡 <strong>Portal Guide:</strong> Student passcode: <code>23MAT106</code>
+                </div>
+            </div>
+
+            <!-- LOCKED CONTENT -->
+            <div id="classroom-content" class="hidden">
+                <div id="classroom-dashboard">
+                    <div class="section-intro">
+                        <h2 class="section-title">Live <span class="accent-text">Classroom Dashboard</span></h2>
+                        <p class="sub-title">Access course-specific resources, weekly schedules, syllabus divisions, and computational lab handouts.</p>
+                        <div style="margin-top: 16px;">
+                            <button onclick="window.relockPortal()" class="btn-back" style="margin-bottom: 0;">🚪 Log Out</button>
+                        </div>
+                    </div>
+                    
+                    <div class="course-grid">
+                        <div class="course-card" onclick="openCourse('course-23mat106')">
+                            <div>
+                                <h3>Mathematics for Intelligent Systems - I</h3>
+                                <p class="course-card-meta">Code: 23MAT106 · Credits: 4</p>
+                                <p>Linear algebra CR/SVD decomposition, Ordinary Differential Equations, and probability modeling.</p>
+                            </div>
+                            <div class="course-card-footer">
+                                <span>Access Unit Notes & Timetable &rarr;</span>
+                            </div>
+                        </div>
+
+                        <div class="course-card" onclick="openCourse('course-23chy115')">
+                            <div>
+                                <h3>Introduction to Material Informatics</h3>
+                                <p class="course-card-meta">Code: 23CHY115 · Credits: 3</p>
+                                <p>Koopman predictions, molecular dynamics energy grids, and AI materials screening.</p>
+                            </div>
+                            <div class="course-card-footer">
+                                <span>Access Unit Notes & Timetable &rarr;</span>
+                            </div>
+                        </div>
+                        <div class="course-card" onclick="openCourse('course-23mat204')">
+                            <div>
+                                <h3>Mathematics for Intelligent Systems 3</h3>
+                                <p class="course-card-meta">Code: 23MAT204 · Credits: 4</p>
+                                <p>Advanced intelligent systems modeling and applied mathematics.</p>
+                            </div>
+                            <span>Access Unit Notes & Timetable &rarr;</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- DETAIL: 23MAT106 -->
+    <div id="course-23mat106" class="course-detail-view hidden">
+        <button class="btn-back" onclick="closeCourse()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12,19 5,12 12,5"/></svg> Back to Classroom
+        </button>
+        
+        <div class="section-intro">
+            <h2 class="section-title">Mathematics for Intelligent Systems (23MAT106)</h2>
+        </div>
+
+        <!-- Course Announcements noticeboard -->
+        <div class="announcements-container" id="announcements-23mat106"></div>
+        
+        <div class="course-panels">
+                            <div class="left-panel">
+                                <div class="panel-card">
+                                    <h3>Weekly Course Timetable</h3>
+                                    <div class="schedule-table-wrapper">
+                                        <table class="schedule-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Time Slot</th>
+                                                    <th>Monday</th>
+                                                    <th>Tuesday</th>
+                                                    <th>Wednesday</th>
+                                                    <th>Thursday</th>
+                                                    <th>Friday</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>08:50 - 09:40</td>
+                                                    <td></td><td></td><td></td><td></td>
+                                                    <td><span class="sec-badge sec-a-badge">Section A</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>09:40 - 10:30</td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td>
+                                                    <td></td>
+                                                    <td><span class="sec-badge sec-a-badge">Section A</span></td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10:30 - 10:45</td>
+                                                    <td colspan="5" class="break-cell">Tea Break</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11:35 - 12:25</td>
+                                                    <td></td><td></td><td></td><td></td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12:25 - 01:15</td>
+                                                    <td><span class="sec-badge sec-a-badge">Section A</span></td>
+                                                    <td></td><td></td><td></td>
+                                                    <td><span class="sec-badge sec-b-badge">Project B</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>01:15 - 02:05</td>
+                                                    <td colspan="5" class="break-cell">Lunch Break</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>02:05 - 03:45</td>
+                                                    <td></td><td></td>
+                                                    <td><span class="sec-badge sec-b-badge">Sec B (Lab)</span></td>
+                                                    <td><span class="sec-badge sec-a-badge">Sec A (Lab)</span></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>03:45 - 04:35</td>
+                                                    <td><span class="sec-badge sec-a-badge">Project A</span></td>
+                                                    <td></td><td></td><td></td><td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p style="font-size:12px; color:var(--text-muted); margin-top:8px;">Rooms: Section A (LH 310) · Section B (LH 314)</p>
+                                </div>
+
+                                <div class="panel-card">
+                                    <h3>Lecture Notes Index</h3>
+                                    <!-- Lectures dynamically rendered here -->
+                                    <div class="lecture-list"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="right-panel">
+                                <div class="panel-card">
+                                    <h3>Course Syllabus Units</h3>
+                                    <!-- Accordions dynamically rendered here -->
+                                    <div class="syllabus-accordion"></div>
+                                </div>
+
+                                <div class="panel-card">
+                                    <h3>Projects & Assignments</h3>
+                                    <ul class="assignments-list" style="padding-left: 0; margin-bottom: 20px;"></ul>
+                                    
+                                    <h3 style="border-top: 1px solid var(--border-color); padding-top: 16px; margin-top: 16px;">Topical Course Projects</h3>
+                                    <ul class="projects-list" style="padding-left: 0;"></ul>
+                                </div>
+
+                                <!-- Forms dynamically injected here when Admin -->
+                                <div class="admin-forms-placeholder hidden"></div>
+                            </div>
+                        </div>
+                </div>
+
+                <div id="course-23chy115" class="course-detail-view hidden">
+                    <button class="btn-back" onclick="closeCourse()">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12,19 5,12 12,5"/></svg> Back to Classroom
+                    </button>
+                    
+                    <div class="section-intro">
+                        <h2 class="section-title">Introduction to Material Informatics (23CHY115)</h2>
+                    </div>
+
+                    <!-- Course Announcements noticeboard -->
+                    <div class="announcements-container" id="announcements-23chy115"></div>
+                    
+                    <div class="course-panels">
+                            <div class="left-panel">
+                                <div class="panel-card">
+                                    <h3>Weekly Course Timetable</h3>
+                                    <div class="schedule-table-wrapper">
+                                        <table class="schedule-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Time Slot</th>
+                                                    <th>Monday</th>
+                                                    <th>Tuesday</th>
+                                                    <th>Wednesday</th>
+                                                    <th>Thursday</th>
+                                                    <th>Friday</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>08:50 - 09:40</td>
+                                                    <td></td><td></td><td></td><td></td>
+                                                    <td><span class="sec-badge sec-a-badge">Section A</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>09:40 - 10:30</td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td>
+                                                    <td></td>
+                                                    <td><span class="sec-badge sec-a-badge">Section A</span></td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10:30 - 10:45</td>
+                                                    <td colspan="5" class="break-cell">Tea Break</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11:35 - 12:25</td>
+                                                    <td></td><td></td><td></td><td></td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12:25 - 01:15</td>
+                                                    <td><span class="sec-badge sec-a-badge">Section A</span></td>
+                                                    <td></td><td></td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>01:15 - 02:05</td>
+                                                    <td colspan="5" class="break-cell">Lunch Break</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>02:05 - 03:45</td>
+                                                    <td></td><td></td>
+                                                    <td><span class="sec-badge sec-b-badge">Sec B (Lab)</span></td>
+                                                    <td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>03:45 - 04:35</td>
+                                                    <td></td><td></td><td></td>
+                                                    <td><span class="sec-badge sec-a-badge">Sec A (Lab)</span></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p style="font-size:12px; color:var(--text-muted); margin-top:8px;">Rooms: Section A (LH 310) · Section B (LH 314)</p>
+                                </div>
+
+                                <div class="panel-card">
+                                    <h3>Lecture Notes Index</h3>
+                                    <!-- Lectures dynamically rendered here -->
+                                    <div class="lecture-list"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="right-panel">
+                                <div class="panel-card">
+                                    <h3>Course Syllabus Units</h3>
+                                    <!-- Accordions dynamically rendered here -->
+                                    <div class="syllabus-accordion"></div>
+                                </div>
+
+                                <div class="panel-card">
+                                    <h3>Projects & Assignments</h3>
+                                    <ul class="assignments-list" style="padding-left: 0; margin-bottom: 20px;"></ul>
+                                    
+                                    <h3 style="border-top: 1px solid var(--border-color); padding-top: 16px; margin-top: 16px;">Topical Course Projects</h3>
+                                    <ul class="projects-list" style="padding-left: 0;"></ul>
+                                </div>
+
+                                <!-- Forms dynamically injected here when Admin -->
+                                <div class="admin-forms-placeholder hidden"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        
+<div id="course-23mat204" class="course-detail-view hidden">
+        <button class="btn-back" onclick="closeCourse()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12,19 5,12 12,5"/></svg> Back to Classroom
+        </button>
+        
+        <div class="section-intro">
+            <h2 class="section-title">Mathematics for Intelligent Systems 3 (23MAT204)</h2>
+        </div>
+
+        <!-- Course Announcements noticeboard -->
+        <div class="announcements-container" id="announcements-23mat204"></div>
+        
+        <div class="course-panels">
+                            <div class="left-panel">
+                                <div class="panel-card">
+                                    <h3>Weekly Course Timetable</h3>
+                                    <div class="schedule-table-wrapper">
+                                        <table class="schedule-table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Time Slot</th>
+                                                    <th>Monday</th>
+                                                    <th>Tuesday</th>
+                                                    <th>Wednesday</th>
+                                                    <th>Thursday</th>
+                                                    <th>Friday</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                
+                                                <tr>
+                                                    <td>08:50 - 09:40</td>
+                                                    <td><span class="sec-badge sec-a-badge">Section A</span></td><td></td><td></td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>09:40 - 10:30</td>
+                                                    <td></td><td></td><td><span class="sec-badge sec-b-badge">Section B</span></td><td></td><td><span class="sec-badge sec-a-badge">Section A</span></td>
+                                                </tr>
+                                                <tr class="break-row">
+                                                    <td>10:30 - 10:45</td>
+                                                    <td colspan="5" class="break-cell">Break</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td>11:35 - 12:25</td>
+                                                    <td></td><td></td><td></td><td></td><td><span class="sec-badge sec-b-badge">Section B</span></td>
+                                                </tr>
+                                                <tr class="break-row">
+                                                    <td>12:25 - 01:15</td>
+                                                    <td colspan="5" class="break-cell">Lunch Break</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td>02:05 - 02:55</td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td><td></td><td></td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>02:55 - 03:45</td>
+                                                    <td><span class="sec-badge sec-b-badge">Section B</span></td><td><span class="sec-badge sec-a-badge">Section A</span></td><td></td><td></td><td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>03:45 - 04:35</td>
+                                                    <td></td><td><span class="sec-badge sec-a-badge">Section A</span></td><td></td><td></td><td></td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p style="font-size:12px; color:var(--text-muted); margin-top:8px;">Rooms: Section A (Academic Block 4 - LH 15) · Section B (Academic Block 4 - LH 16)</p>
+                                </div>
+
+                                <div class="panel-card">
+                                    <h3>Lecture Notes Index</h3>
+                                    <!-- Lectures dynamically rendered here -->
+                                    <div class="lecture-list"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="right-panel">
+                                <div class="panel-card">
+                                    <h3>Course Syllabus Units</h3>
+                                    <!-- Accordions dynamically rendered here -->
+                                    <div class="syllabus-accordion"></div>
+                                </div>
+
+                                <div class="panel-card">
+                                    <h3>Projects & Assignments</h3>
+                                    <ul class="assignments-list" style="padding-left: 0; margin-bottom: 20px;"></ul>
+                                    
+                                    <h3 style="border-top: 1px solid var(--border-color); padding-top: 16px; margin-top: 16px;">Topical Course Projects</h3>
+                                    <ul class="projects-list" style="padding-left: 0;"></ul>
+                                </div>
+
+                                <!-- Forms dynamically injected here when Admin -->
+                                <div class="admin-forms-placeholder hidden"></div>
+                            </div>
+                        </div>
+                </div>
+
+                
+</section>
+
+        <!-- ==================== 6. LAB PRODUCTS SECTION ==================== -->
+        
+
+        <!-- ==================== 7. LATEST NEWS ==================== -->
+        
+
+        <!-- ==================== 8. ABOUT SUMAN ==================== -->
+        
+
+        <!-- ==================== 9. PLAYGROUND SECTION ==================== -->
+        
+        
+        <!-- ==================== CONNECT / CONNECTIVITY FOOTER ==================== -->
+        <div class="connect-links">
+            <a href="mailto:sumandutta.avvcb@gmail.com" class="connect-link" title="Email Suman" aria-label="Send Email">
+                <span class="connect-icon">📧</span>
+                <span class="connect-label">Email</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=j-83jp8AAAAJ" class="connect-link" target="_blank" title="Google Scholar" aria-label="Google Scholar Profile">
+                <span class="connect-icon">🎓</span>
+                <span class="connect-label">Scholar</span>
+            </a>
+            <a href="https://github.com/sd3ph" class="connect-link" target="_blank" title="GitHub" aria-label="GitHub Profile">
+                <span class="connect-icon">💻</span>
+                <span class="connect-label">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/sd3ph/" class="connect-link" target="_blank" title="LinkedIn" aria-label="LinkedIn Profile">
+                <span class="connect-icon">🔗</span>
+                <span class="connect-label">LinkedIn</span>
+            </a>
+        </div>
+        
+        <footer class="site-footer">
+            <p>© 2026 Physics+AI Research Group. Open-source site. <a href="https://github.com/aids-a-b/Website" target="_blank">Improve this page on GitHub</a></p>
+        </footer>
+
+    </div>
+
+    <!-- FLOATING ADMIN CONTROL BAR -->
+    <div id="admin-float-bar" class="admin-float-bar hidden">
+        <div class="admin-status" id="admin-status-container">
+            <div class="admin-pulse-indicator"></div>
+            <span id="admin-status-text">All edits committed to local session</span>
+        </div>
+        <div class="admin-actions">
+            <button class="btn-admin-action btn-admin-dl" onclick="downloadDbConfig()">Download JSON</button>
+            <button class="btn-admin-action btn-admin-git" onclick="openGitSettings()">Sync to GitHub</button>
+            <button class="btn-admin-action btn-admin-dl" onclick="relockPortal()" style="border-color:#ef4444; color:#ef4444;">Log Out</button>
+        </div>
+    </div>
+
+    <!-- GIT SYNC CONFIGURATION MODAL -->
+    <div id="git-modal" class="git-modal-overlay hidden">
+        <div class="git-modal-card">
+            <div class="git-modal-header">
+                <h3>GitHub Sync Settings</h3>
+                <button class="git-modal-close" onclick="closeGitSettings()">&times;</button>
+            </div>
+            <form onsubmit="syncDatabaseToGit(event)">
+                <div class="git-modal-body">
+                    <p style="font-size:12.5px; color:var(--text-secondary); margin-bottom:12px;">This connector uses the GitHub API to write edits directly to your repository contents file. Your token is stored securely only in your browser.</p>
+                    <div class="form-group">
+                        <label>Personal Access Token (PAT)</label>
+                        <input type="password" id="git-pat-input" placeholder="ghp_..." required>
+                    </div>
+                    <div class="form-group" style="margin-top:12px;">
+                        <label>Target Repository Path</label>
+                        <input type="text" id="git-repo-input" value="aids-a-b/Website" placeholder="Owner/Repo" required>
+                    </div>
+                </div>
+                <div class="git-modal-footer">
+                    <button type="button" class="btn-admin-action btn-admin-dl" onclick="closeGitSettings()">Cancel</button>
+                    <button type="button" class="btn-admin-action btn-admin-git" onclick="saveLocalChanges()" style="background:var(--accent-ai-solid); border-color:var(--accent-ai-solid);">Save</button>
+                    <button type="submit" class="btn-admin-action btn-admin-git">Push to Git</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll Back To Top">↑</button>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js?v=2"></script>
+</body>
+</html>
