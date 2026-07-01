@@ -545,12 +545,7 @@
       "lectures": [],
       "assignments": [],
       "projects": [],
-      "announcements": [
-        {
-          "text": "Test",
-          "url": "https://drive.google.com/drive/u/1/folders/1HUlZygm721rCA-sn6Cbe6myNqLd7KTY8"
-        }
-      ]
+      "announcements": []
     }
   }
 }
