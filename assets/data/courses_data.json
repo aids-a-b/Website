@@ -547,6 +547,10 @@
       "projects": [],
       "announcements": [
         {
+          "text": "TEST",
+          "url": ""
+        },
+        {
           "text": "test1",
           "url": ""
         }
