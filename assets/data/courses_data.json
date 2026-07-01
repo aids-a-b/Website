@@ -1,548 +1,556 @@
 {
-    "courses": {
-        "23mat106": {
-            "code": "23MAT106",
-            "title": "Mathematics for Intelligent Systems - I",
-            "semester": "Fall 2025",
-            "credits": 4,
-            "students": "BTech AID, Batch A and B (Total: 133 Students) First Year, First Semester",
-            "timeline": "6 Aug - 5 Dec, 2025",
-            "roomInfo": "Rooms: Section A (LH 310) \u00b7 Section B (LH 314)",
-            "schedule": [
-                {
-                    "slot": "08:50 - 09:40",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": "Section A"
-                },
-                {
-                    "slot": "09:40 - 10:30",
-                    "monday": "Section B",
-                    "tuesday": "",
-                    "wednesday": "Section A",
-                    "thursday": "Section B",
-                    "friday": ""
-                },
-                {
-                    "slot": "10:30 - 10:45",
-                    "break": true
-                },
-                {
-                    "slot": "11:35 - 12:25",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": "Section B"
-                },
-                {
-                    "slot": "12:25 - 01:15",
-                    "monday": "Section A",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": "Project B"
-                },
-                {
-                    "slot": "01:15 - 02:05",
-                    "break": true
-                },
-                {
-                    "slot": "02:05 - 03:45",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "Section B (Lab)",
-                    "thursday": "Section A (Lab)",
-                    "friday": ""
-                },
-                {
-                    "slot": "03:45 - 04:35",
-                    "monday": "Project A",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                }
-            ],
-            "syllabus": [
-                {
-                    "unit": "Unit 1: Basics of Linear Algebra",
-                    "content": "Gaussian elimination, vector spaces, rank, CR matrix decompositions, rotations, eigenvalues/eigenvectors, and introductory singular value decomposition (SVD). Computational experiments using Matlab/Excel/Simulink."
-                },
-                {
-                    "unit": "Unit 2: Ordinary Linear Differential Equations",
-                    "content": "Formulating ODEs, impulse responses, numerical integrations in Simulink/MATLAB, Taylor series, and optimization boundaries. Examples of ODE modeling in falling objects, satellites, planetary motion, electrical and mechanical systems."
-                },
-                {
-                    "unit": "Unit 3: Probability & Random Variables",
-                    "content": "Introduction to random variables (continuous and discrete), mean, standard deviation, variance, sum of independent random variables, convolution, sum of convolution integral, probability distributions."
-                },
-                {
-                    "unit": "Unit 4: Quantum Computing Foundations",
-                    "content": "Dirac bra-ket notations, inner/outer matrix products, state vector systems, and computational maps for the National Quantum Mission."
-                }
-            ],
-            "lectures": [
-                {
-                    "title": "Lecture 01: Introduction to Linear Algebra for AI",
-                    "date": "06/08/2025",
-                    "url": "https://drive.google.com/file/d/1iQD5Idz2AqHFS5tHxHp9FYU0DpuDQ2t2/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 02: Pseudoinverse in Action: Left and Right Inverses",
-                    "date": "08/08/2025",
-                    "url": "https://drive.google.com/file/d/1QxHKnfaHpDvrX1Q6f9Q9I8hQ8eetbBaU/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 03: Pseudoinverse : Guide to your first AI application",
-                    "date": "11/08/2025",
-                    "url": "https://drive.google.com/file/d/1tWhlRsK2VE4cyas4OhLAwnjNwyOfuxrR/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 04: Complex Data Processing",
-                    "date": "13/08/2025",
-                    "url": "https://drive.google.com/file/d/1xMa106_qIavA7vq0Un-bNcqrSbn4ItBr/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 05-06: Advanced Optimization and Physics-Informed Approaches",
-                    "date": "18/08/2025",
-                    "url": "https://drive.google.com/file/d/1Cex5xgXujKA76VS8t02WuPzfFm4i7vMf/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 07: Linear Algebra Behind LLMs and Generative AI",
-                    "date": "21/08/2025",
-                    "url": "https://drive.google.com/file/d/1rwP78U60kntlpxxYTe5jD12t332jRt1s/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 08-10: Symmetries and Principal Axes of Transformations",
-                    "date": "01-05/09/2025",
-                    "url": "https://drive.google.com/file/d/1MkGZUF9IKAIYxBv7noBz9B3FnrgaPJc5/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 11-12: Introduction to Ordinary Differential Equations",
-                    "date": "08-10/09/2025",
-                    "url": "https://drive.google.com/file/d/1MkGZUF9IKAIYxBv7noBz9B3FnrgaPJc5/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 13-15: Impulse Response and Convolution",
-                    "date": "10-13/09/2025",
-                    "url": "https://drive.google.com/file/d/1_PaitQ1drWka5PChDg8cy8fRMGuFMhA2/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture S1: An Introduction to Python for Linear Algebra",
-                    "date": "17/09/2025",
-                    "url": "https://drive.google.com/file/d/1pRwjpohrF_t-iULyS0VWk7NBpHGEKWqo/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 16-17: Modeling Falling Objects, Satellites, and Planetary Motion",
-                    "date": "03-04/10/2025",
-                    "url": "https://drive.google.com/file/d/1hlK77sH8cevDB_e4i1mbi67cYOawG7hw/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 18: Ordinary Differential Equations Model",
-                    "date": "06/10/2025",
-                    "url": "https://drive.google.com/file/d/1oe9eS-2PNsJ_ms5_4UgoKinqTAhAeGID/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 19: Complex RLC Circuit Analysis",
-                    "date": "08/10/2025",
-                    "url": "https://drive.google.com/file/d/15vP6HRE0uMPYSHGrdb1SOZZ2CLl9UuaU/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 20-21: Solving Ordinary Differential Equations in Python with SciPy",
-                    "date": "08/10/2025",
-                    "url": "https://drive.google.com/file/d/1mkCa3YYbM5Y04IAdMoVx39nBrDEsV5sR/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 22: Numerical Solution of ODEs",
-                    "date": "11/10/2025",
-                    "url": "https://drive.google.com/file/d/1C-MSVKh_8QVNJtfayCFyjBGn_F1A2To5/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 23-26: Probability and Random Variables",
-                    "date": "24/10/2025",
-                    "url": "https://drive.google.com/file/d/1iRcFYW5_NAFJNh9FnoA9uo16n-Cv5R8c/view?usp=sharing"
-                },
-                {
-                    "title": "Hybrid Lecture-1: Building your first AI model",
-                    "date": "05/11/2025",
-                    "url": "https://drive.google.com/file/d/1qLYkZweb2UPk8yMq9tnCXjYJoxhnoDSO/view?usp=sharing"
-                },
-                {
-                    "title": "Hybrid Lecture-2: Building your second AI model",
-                    "date": "06/11/2025",
-                    "url": "https://drive.google.com/file/d/1qPFETANADVHdJYmeeauB-VWI1uOieIvr/view?usp=sharing"
-                },
-                {
-                    "title": "Hybrid Lecture-3: Polynomial Regression via Design Matrix Modification",
-                    "date": "07/11/2025",
-                    "url": "https://drive.google.com/file/d/1JhTzCXodJKlXThSbIfQH9Wt4rWrv4WA1/view?usp=sharing"
-                },
-                {
-                    "title": "Hybrid Lecture-4: Finding the Pseudoinverse via CR Decomposition",
-                    "date": "11/11/2025",
-                    "url": "https://drive.google.com/file/d/1HwdJjU6YZwOnGfQAE5U_FlKCwx0ZBiwr/view?usp=sharing"
-                },
-                {
-                    "title": "Hybrid Lecture-5: SVD Applications in Intelligent Systems",
-                    "date": "12/11/2025",
-                    "url": "https://drive.google.com/file/d/1o-EyZnoYgP5XWq7N9jYSVEB9K5tOGHDT/view?usp=sharing"
-                },
-                {
-                    "title": "Hybrid Lecture-6: SVD and Stochastic Analysis",
-                    "date": "14/11/2025",
-                    "url": "https://drive.google.com/file/d/1ZmoDHKNj4rgpQNUL0a5F4NBmyQDESGfY/view?usp=sharing"
-                },
-                {
-                    "title": "Summary and Revision Unit-I-II-III (Theory)",
-                    "date": "17/11/2025",
-                    "url": "https://drive.google.com/file/d/1AH3pcCV2Y20UcjFV1GsWdiEphSNxoSeG/view?usp=sharing"
-                },
-                {
-                    "title": "Summary and Revision Unit-I-II-III (Coding)",
-                    "date": "19/11/2025",
-                    "url": "https://drive.google.com/file/d/1H00roWBC8HzWcGgA-pDbqYawVBSGjIwY/view?usp=sharing"
-                },
-                {
-                    "title": "SmartLab1: Linear Regression on the Edge",
-                    "date": "27/11/2025",
-                    "url": "https://drive.google.com/file/d/1odIEqeeOxx4CVEQcGZPm_qSWesh43KN_/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 27: Introduction to Quantum Computing",
-                    "date": "28/11/2025",
-                    "url": "https://drive.google.com/file/d/1_WMGs493n6NF6MFzfg_KIoJpky-3X1ex/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 28-30: Quantum Computing (Extended)",
-                    "date": "29/11/2025",
-                    "url": "https://drive.google.com/file/d/1TDx-ZVSEYl2dRAufjnGKXv9N5GwKH0rJ/view?usp=sharing"
-                }
-            ],
-            "assignments": [
-                {
-                    "title": "Assignment 1: Linear Algebra and ML",
-                    "due": "18/08/2025",
-                    "url": "https://drive.google.com/file/d/1rkGgMks5BO0PGgv5f-wHzubaMnZHBIxF/view?usp=sharing"
-                },
-                {
-                    "title": "Assignment 2: Differential Equations and Modeling",
-                    "due": "11/10/2025",
-                    "url": "https://drive.google.com/file/d/1yReUaF3pPoDgymTmBLUbRtqrZP40dzlW/view?usp=sharing"
-                }
-            ],
-            "projects": [
-                {
-                    "title": "Summary of Topical Projects",
-                    "url": "https://drive.google.com/file/d/1kfk44ClGk1CHYdp4oH3HK4MVGU5g_oYK/view?usp=drive_link"
-                }
-            ]
+  "courses": {
+    "23mat106": {
+      "code": "23MAT106",
+      "title": "Mathematics for Intelligent Systems - I",
+      "semester": "Fall 2025",
+      "credits": 4,
+      "students": "BTech AID, Batch A and B (Total: 133 Students) First Year, First Semester",
+      "timeline": "6 Aug - 5 Dec, 2025",
+      "roomInfo": "Rooms: Section A (LH 310) · Section B (LH 314)",
+      "schedule": [
+        {
+          "slot": "08:50 - 09:40",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": "Section A"
         },
-        "23chy115": {
-            "code": "23CHY115",
-            "title": "Introduction to Material Informatics",
-            "semester": "Spring 2026",
-            "credits": 3,
-            "students": "BTech AID, Batch A and B (Total: 129 Students) First Year, Second Semester",
-            "timeline": "5 Jan - 4 May, 2026",
-            "roomInfo": "Rooms: Section A (LH 310) \u00b7 Section B (LH 314)",
-            "schedule": [
-                {
-                    "slot": "08:50 - 09:40",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": "Section A"
-                },
-                {
-                    "slot": "09:40 - 10:30",
-                    "monday": "Section B",
-                    "tuesday": "",
-                    "wednesday": "Section A",
-                    "thursday": "Section B",
-                    "friday": ""
-                },
-                {
-                    "slot": "10:30 - 10:45",
-                    "break": true
-                },
-                {
-                    "slot": "11:35 - 12:25",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": "Section B"
-                },
-                {
-                    "slot": "12:25 - 01:15",
-                    "monday": "Section A",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                },
-                {
-                    "slot": "01:15 - 02:05",
-                    "break": true
-                },
-                {
-                    "slot": "02:05 - 03:45",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "Section B (Lab)",
-                    "thursday": "",
-                    "friday": ""
-                },
-                {
-                    "slot": "03:45 - 04:35",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "Section A (Lab)",
-                    "friday": ""
-                }
-            ],
-            "syllabus": [
-                {
-                    "unit": "Unit 1: Introduction to Material Science & Force Fields",
-                    "content": "Structure, properties, and process spaces; process-structure-property linkages. Monte Carlo, Molecular Dynamics simulations, Normal Mode Analysis, and Density Functional Theory (DFT) using Gaussian/Gauss view."
-                },
-                {
-                    "unit": "Unit 2: Screening & Property Predictions",
-                    "content": "Quantification and screening of materials properties. Property prediction and optimization using AI. Materials design and discovery using AI. Handling small, sparse, and low-quality datasets."
-                },
-                {
-                    "unit": "Unit 3: Catastrophe Science & Inverse Design",
-                    "content": "Materials failure and sustainability analysis. Inverse materials design concepts. Solving inverse design via AI. Cost-effectiveness optimization. Quantum computing concepts in material informatics."
-                },
-                {
-                    "unit": "Unit 4: Case Studies & Ethical Limits",
-                    "content": "Case studies of material informatics (AI) in different fields (e.g. energy, aerospace, biomedical, etc.). Ethical considerations, data boundaries, and future directions."
-                }
-            ],
-            "lectures": [
-                {
-                    "title": "Lecture 01-03: Overview of Material Informatics",
-                    "date": "12/01/2026",
-                    "url": "https://drive.google.com/file/d/10rcKnWqmk5Hy0MSTJqXo8-H74M2xk72T/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture S1: Generative Prediction using Koopman Theory",
-                    "date": "19/01/2026",
-                    "url": "https://drive.google.com/file/d/1cZaj16h_Sk6r1eZzc-ZFUbtcTkD7J-z2/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 4-5: Koopman Operator & Simple DMD",
-                    "date": "22/01/2026",
-                    "url": "https://drive.google.com/file/d/1hfJNXZGG6GfeTdLZS3ALU6GrzoUQhBdy/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 6-7: Koopman Prediction in Material Informatics",
-                    "date": "26/01/2026",
-                    "url": "https://drive.google.com/file/d/1lz4Ddp6zURVGcWDvydx6Za-LBiv1wt7c/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 8: Single Variable Time-Series Prediction (Hankel-DMD)",
-                    "date": "02/02/2026",
-                    "url": "https://drive.google.com/file/d/1uW-H33hAH_Th4Y_Ejim6yngpuo9gq43a/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture S2: Data-Driven Model Engineering",
-                    "date": "09/02/2026",
-                    "url": "https://drive.google.com/file/d/1zUQ6BYGaNtxK2LeCS5pzdL0czc-1aZHG/view?usp=sharing"
-                },
-                {
-                    "title": "DMD Slides: Data-Driven Model Engineering",
-                    "date": "09/02/2026",
-                    "url": "https://drive.google.com/file/d/1zUQ6BYGaNtxK2LeCS5pzdL0czc-1aZHG/view?usp=drive_link"
-                },
-                {
-                    "title": "Lecture 9-10: Analytical Data-Driven Koopman",
-                    "date": "12/02/2026",
-                    "url": "https://drive.google.com/file/d/10btQz3_e2ZYVLppxqe5Zqhg0wxUBOAZY/view?usp=drive_link"
-                },
-                {
-                    "title": "Lecture 11-12: Introduction to Molecular Dynamics",
-                    "date": "16/02/2026",
-                    "url": "https://drive.google.com/file/d/1I54B2QkDEIKDU_1Vk8Or9NcVrmtz-gaw/view?usp=drive_link"
-                },
-                {
-                    "title": "Lecture 13: Basic Molecular Dynamics",
-                    "date": "23/02/2026",
-                    "url": "https://drive.google.com/file/d/1hnKFxWve7AYl4j8dOCd-JzC-rZAyxlYu/view?usp=drive_link"
-                },
-                {
-                    "title": "Lecture 14-15: Catastrophic Algorithms (Sandpile vs. CBO Earthquake Model)",
-                    "date": "02/03/2026",
-                    "url": "https://drive.google.com/file/d/1t1njTsSTpOiqRU6bVZCJHe98pCBcKfsM/view?usp=drive_link"
-                },
-                {
-                    "title": "Lecture 14-18: Catastrophic Algorithms (Extended Study)",
-                    "date": "09/03/2026",
-                    "url": "https://drive.google.com/file/d/1BSzk1M6NML5LYN_KgRYH-GUJco4YDLPv/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 22: Massively Parallel Material Simulations LAMMPS and OVITO",
-                    "date": "23/03/2026",
-                    "url": "https://drive.google.com/file/d/1X1Cv0vV0pIWJsyU0P-M8dduBeOsBiz-I/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 24: Agent-Based Simulations using LAMMPS",
-                    "date": "30/03/2026",
-                    "url": "https://drive.google.com/file/d/1-ZvtPiX5y_kmptXihOqa5jQbOkfN724e/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 26: Post Processing LAMMPS Data Sets",
-                    "date": "06/04/2026",
-                    "url": "https://drive.google.com/file/d/1SXG6P7WjXRF_BbrG1r8ix1ya77g1PmKw/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 27: Tutorial: Material Discovery with AI",
-                    "date": "13/04/2026",
-                    "url": "https://drive.google.com/file/d/1x02_HxmbctBWNH9JE-QyohEowLdpwCw6/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 26-30: Material Discovery by AI (Extended Slides)",
-                    "date": "20/04/2026",
-                    "url": "https://drive.google.com/file/d/1-ZvtPiX5y_kmptXihOqa5jQbOkfN724e/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 31: Vibrational Dynamics, Normal Mode Analysis (NMA)",
-                    "date": "27/04/2026",
-                    "url": "https://drive.google.com/file/d/1lmd9snw_9iXnuwFd-jeRUOTeB5SqjVov/view?usp=sharing"
-                },
-                {
-                    "title": "Lecture 32-34: Ethical Considerations, Limitations, and Future Directions",
-                    "date": "04/05/2026",
-                    "url": "https://drive.google.com/file/d/1znn-zVH3Ciy3cJJHQO3Tiuo-i4yUdGIt/view?usp=sharing"
-                },
-                {
-                    "title": "Extensive Summary Note",
-                    "date": "04/05/2026",
-                    "url": "https://drive.google.com/file/d/1Is5xz_s14I5ROZDtmghbUwJOtNb5wAZT/view?usp=sharing"
-                }
-            ],
-            "assignments": [
-                {
-                    "title": "Assignment 01: Coding MD & Property Screenings",
-                    "due": "31/01/2026",
-                    "url": "https://drive.google.com/file/d/1DHuBZ-bzmekvveB4S0OiRT2LBufMDDvi/view?usp=sharing"
-                }
-            ],
-            "projects": [
-                {
-                    "title": "Summary of Project Review",
-                    "url": "https://drive.google.com/file/d/13OLMqsd1L7j0Fj4esVj72-NellyJjNn9/view?usp=sharing"
-                }
-            ]
+        {
+          "slot": "09:40 - 10:30",
+          "monday": "Section B",
+          "tuesday": "",
+          "wednesday": "Section A",
+          "thursday": "Section B",
+          "friday": ""
         },
-        "23mat204": {
-            "code": "23MAT204",
-            "title": "Mathematics for Intelligent Systems 3",
-            "semester": "Fall 2025",
-            "credits": 4,
-            "students": "BTech AID",
-            "timeline": "TBD",
-            "roomInfo": "Rooms: Section A (Academic Block 4 - LH 15) \u00b7 Section B (Academic Block 4 - LH 16)",
-            "schedule": [
-                {
-                    "slot": "08:50 - 09:40",
-                    "monday": "Section A",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                },
-                {
-                    "slot": "09:40 - 10:30",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "Section B",
-                    "thursday": "",
-                    "friday": "Section A"
-                },
-                {
-                    "slot": "10:30 - 10:45",
-                    "break": true
-                },
-                {
-                    "slot": "10:45 - 11:35",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                },
-                {
-                    "slot": "11:35 - 12:25",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": "Section B"
-                },
-                {
-                    "slot": "12:25 - 01:15",
-                    "monday": "",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                },
-                {
-                    "slot": "01:15 - 02:05",
-                    "break": true
-                },
-                {
-                    "slot": "02:05 - 02:55",
-                    "monday": "Section B",
-                    "tuesday": "",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                },
-                {
-                    "slot": "02:55 - 03:45",
-                    "monday": "Section B",
-                    "tuesday": "Section A",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                },
-                {
-                    "slot": "03:45 - 04:35",
-                    "monday": "",
-                    "tuesday": "Section A",
-                    "wednesday": "",
-                    "thursday": "",
-                    "friday": ""
-                }
-            ],
-            "syllabus": [
-                {
-                    "unit": "Unit 1: Optimization and Linear Algebra",
-                    "content": "Direct methods for convex functions - sparsity inducing penalty functions- Constrained Convex Optimization problems - Krylov subspace -Conjugate gradient method - formulating problems as LP and QP - Lagrangian multiplier method-KKT conditions - support vector machines- solving by packages (CVXOPT) - Introduction to RKS - Introduction to DMD-Tensor and HoSVD- Linear algebra for AI."
-                },
-                {
-                    "unit": "Unit 2: PDEs and Computational Experiments",
-                    "content": "Introduction to PDEs - Formulation and numerical solution methods (Finite difference and Fourier) for PDEs in Physics and Engineering- Computational experiments using Matlab/Excel/Simulink."
-                },
-                {
-                    "unit": "Unit 3: Stochastic Processes",
-                    "content": "Multivariate Gaussian and weighted least squares - Markov chains - Markov decision Process"
-                },
-                {
-                    "unit": "Unit 4: Quantum Computing",
-                    "content": "Introduction to quantum computing-Bells inequality-Quantum gates"
-                }
-            ],
-            "lectures": [],
-            "assignments": [],
-            "projects": []
+        {
+          "slot": "10:30 - 10:45",
+          "break": true
+        },
+        {
+          "slot": "11:35 - 12:25",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": "Section B"
+        },
+        {
+          "slot": "12:25 - 01:15",
+          "monday": "Section A",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": "Project B"
+        },
+        {
+          "slot": "01:15 - 02:05",
+          "break": true
+        },
+        {
+          "slot": "02:05 - 03:45",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "Section B (Lab)",
+          "thursday": "Section A (Lab)",
+          "friday": ""
+        },
+        {
+          "slot": "03:45 - 04:35",
+          "monday": "Project A",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
         }
+      ],
+      "syllabus": [
+        {
+          "unit": "Unit 1: Basics of Linear Algebra",
+          "content": "Gaussian elimination, vector spaces, rank, CR matrix decompositions, rotations, eigenvalues/eigenvectors, and introductory singular value decomposition (SVD). Computational experiments using Matlab/Excel/Simulink."
+        },
+        {
+          "unit": "Unit 2: Ordinary Linear Differential Equations",
+          "content": "Formulating ODEs, impulse responses, numerical integrations in Simulink/MATLAB, Taylor series, and optimization boundaries. Examples of ODE modeling in falling objects, satellites, planetary motion, electrical and mechanical systems."
+        },
+        {
+          "unit": "Unit 3: Probability & Random Variables",
+          "content": "Introduction to random variables (continuous and discrete), mean, standard deviation, variance, sum of independent random variables, convolution, sum of convolution integral, probability distributions."
+        },
+        {
+          "unit": "Unit 4: Quantum Computing Foundations",
+          "content": "Dirac bra-ket notations, inner/outer matrix products, state vector systems, and computational maps for the National Quantum Mission."
+        }
+      ],
+      "lectures": [
+        {
+          "title": "Lecture 01: Introduction to Linear Algebra for AI",
+          "date": "06/08/2025",
+          "url": "https://drive.google.com/file/d/1iQD5Idz2AqHFS5tHxHp9FYU0DpuDQ2t2/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 02: Pseudoinverse in Action: Left and Right Inverses",
+          "date": "08/08/2025",
+          "url": "https://drive.google.com/file/d/1QxHKnfaHpDvrX1Q6f9Q9I8hQ8eetbBaU/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 03: Pseudoinverse : Guide to your first AI application",
+          "date": "11/08/2025",
+          "url": "https://drive.google.com/file/d/1tWhlRsK2VE4cyas4OhLAwnjNwyOfuxrR/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 04: Complex Data Processing",
+          "date": "13/08/2025",
+          "url": "https://drive.google.com/file/d/1xMa106_qIavA7vq0Un-bNcqrSbn4ItBr/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 05-06: Advanced Optimization and Physics-Informed Approaches",
+          "date": "18/08/2025",
+          "url": "https://drive.google.com/file/d/1Cex5xgXujKA76VS8t02WuPzfFm4i7vMf/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 07: Linear Algebra Behind LLMs and Generative AI",
+          "date": "21/08/2025",
+          "url": "https://drive.google.com/file/d/1rwP78U60kntlpxxYTe5jD12t332jRt1s/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 08-10: Symmetries and Principal Axes of Transformations",
+          "date": "01-05/09/2025",
+          "url": "https://drive.google.com/file/d/1MkGZUF9IKAIYxBv7noBz9B3FnrgaPJc5/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 11-12: Introduction to Ordinary Differential Equations",
+          "date": "08-10/09/2025",
+          "url": "https://drive.google.com/file/d/1MkGZUF9IKAIYxBv7noBz9B3FnrgaPJc5/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 13-15: Impulse Response and Convolution",
+          "date": "10-13/09/2025",
+          "url": "https://drive.google.com/file/d/1_PaitQ1drWka5PChDg8cy8fRMGuFMhA2/view?usp=sharing"
+        },
+        {
+          "title": "Lecture S1: An Introduction to Python for Linear Algebra",
+          "date": "17/09/2025",
+          "url": "https://drive.google.com/file/d/1pRwjpohrF_t-iULyS0VWk7NBpHGEKWqo/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 16-17: Modeling Falling Objects, Satellites, and Planetary Motion",
+          "date": "03-04/10/2025",
+          "url": "https://drive.google.com/file/d/1hlK77sH8cevDB_e4i1mbi67cYOawG7hw/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 18: Ordinary Differential Equations Model",
+          "date": "06/10/2025",
+          "url": "https://drive.google.com/file/d/1oe9eS-2PNsJ_ms5_4UgoKinqTAhAeGID/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 19: Complex RLC Circuit Analysis",
+          "date": "08/10/2025",
+          "url": "https://drive.google.com/file/d/15vP6HRE0uMPYSHGrdb1SOZZ2CLl9UuaU/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 20-21: Solving Ordinary Differential Equations in Python with SciPy",
+          "date": "08/10/2025",
+          "url": "https://drive.google.com/file/d/1mkCa3YYbM5Y04IAdMoVx39nBrDEsV5sR/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 22: Numerical Solution of ODEs",
+          "date": "11/10/2025",
+          "url": "https://drive.google.com/file/d/1C-MSVKh_8QVNJtfayCFyjBGn_F1A2To5/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 23-26: Probability and Random Variables",
+          "date": "24/10/2025",
+          "url": "https://drive.google.com/file/d/1iRcFYW5_NAFJNh9FnoA9uo16n-Cv5R8c/view?usp=sharing"
+        },
+        {
+          "title": "Hybrid Lecture-1: Building your first AI model",
+          "date": "05/11/2025",
+          "url": "https://drive.google.com/file/d/1qLYkZweb2UPk8yMq9tnCXjYJoxhnoDSO/view?usp=sharing"
+        },
+        {
+          "title": "Hybrid Lecture-2: Building your second AI model",
+          "date": "06/11/2025",
+          "url": "https://drive.google.com/file/d/1qPFETANADVHdJYmeeauB-VWI1uOieIvr/view?usp=sharing"
+        },
+        {
+          "title": "Hybrid Lecture-3: Polynomial Regression via Design Matrix Modification",
+          "date": "07/11/2025",
+          "url": "https://drive.google.com/file/d/1JhTzCXodJKlXThSbIfQH9Wt4rWrv4WA1/view?usp=sharing"
+        },
+        {
+          "title": "Hybrid Lecture-4: Finding the Pseudoinverse via CR Decomposition",
+          "date": "11/11/2025",
+          "url": "https://drive.google.com/file/d/1HwdJjU6YZwOnGfQAE5U_FlKCwx0ZBiwr/view?usp=sharing"
+        },
+        {
+          "title": "Hybrid Lecture-5: SVD Applications in Intelligent Systems",
+          "date": "12/11/2025",
+          "url": "https://drive.google.com/file/d/1o-EyZnoYgP5XWq7N9jYSVEB9K5tOGHDT/view?usp=sharing"
+        },
+        {
+          "title": "Hybrid Lecture-6: SVD and Stochastic Analysis",
+          "date": "14/11/2025",
+          "url": "https://drive.google.com/file/d/1ZmoDHKNj4rgpQNUL0a5F4NBmyQDESGfY/view?usp=sharing"
+        },
+        {
+          "title": "Summary and Revision Unit-I-II-III (Theory)",
+          "date": "17/11/2025",
+          "url": "https://drive.google.com/file/d/1AH3pcCV2Y20UcjFV1GsWdiEphSNxoSeG/view?usp=sharing"
+        },
+        {
+          "title": "Summary and Revision Unit-I-II-III (Coding)",
+          "date": "19/11/2025",
+          "url": "https://drive.google.com/file/d/1H00roWBC8HzWcGgA-pDbqYawVBSGjIwY/view?usp=sharing"
+        },
+        {
+          "title": "SmartLab1: Linear Regression on the Edge",
+          "date": "27/11/2025",
+          "url": "https://drive.google.com/file/d/1odIEqeeOxx4CVEQcGZPm_qSWesh43KN_/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 27: Introduction to Quantum Computing",
+          "date": "28/11/2025",
+          "url": "https://drive.google.com/file/d/1_WMGs493n6NF6MFzfg_KIoJpky-3X1ex/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 28-30: Quantum Computing (Extended)",
+          "date": "29/11/2025",
+          "url": "https://drive.google.com/file/d/1TDx-ZVSEYl2dRAufjnGKXv9N5GwKH0rJ/view?usp=sharing"
+        }
+      ],
+      "assignments": [
+        {
+          "title": "Assignment 1: Linear Algebra and ML",
+          "due": "18/08/2025",
+          "url": "https://drive.google.com/file/d/1rkGgMks5BO0PGgv5f-wHzubaMnZHBIxF/view?usp=sharing"
+        },
+        {
+          "title": "Assignment 2: Differential Equations and Modeling",
+          "due": "11/10/2025",
+          "url": "https://drive.google.com/file/d/1yReUaF3pPoDgymTmBLUbRtqrZP40dzlW/view?usp=sharing"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Summary of Topical Projects",
+          "url": "https://drive.google.com/file/d/1kfk44ClGk1CHYdp4oH3HK4MVGU5g_oYK/view?usp=drive_link"
+        }
+      ],
+      "announcements": []
+    },
+    "23chy115": {
+      "code": "23CHY115",
+      "title": "Introduction to Material Informatics",
+      "semester": "Spring 2026",
+      "credits": 3,
+      "students": "BTech AID, Batch A and B (Total: 129 Students) First Year, Second Semester",
+      "timeline": "5 Jan - 4 May, 2026",
+      "roomInfo": "Rooms: Section A (LH 310) · Section B (LH 314)",
+      "schedule": [
+        {
+          "slot": "08:50 - 09:40",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": "Section A"
+        },
+        {
+          "slot": "09:40 - 10:30",
+          "monday": "Section B",
+          "tuesday": "",
+          "wednesday": "Section A",
+          "thursday": "Section B",
+          "friday": ""
+        },
+        {
+          "slot": "10:30 - 10:45",
+          "break": true
+        },
+        {
+          "slot": "11:35 - 12:25",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": "Section B"
+        },
+        {
+          "slot": "12:25 - 01:15",
+          "monday": "Section A",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
+        },
+        {
+          "slot": "01:15 - 02:05",
+          "break": true
+        },
+        {
+          "slot": "02:05 - 03:45",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "Section B (Lab)",
+          "thursday": "",
+          "friday": ""
+        },
+        {
+          "slot": "03:45 - 04:35",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "Section A (Lab)",
+          "friday": ""
+        }
+      ],
+      "syllabus": [
+        {
+          "unit": "Unit 1: Introduction to Material Science & Force Fields",
+          "content": "Structure, properties, and process spaces; process-structure-property linkages. Monte Carlo, Molecular Dynamics simulations, Normal Mode Analysis, and Density Functional Theory (DFT) using Gaussian/Gauss view."
+        },
+        {
+          "unit": "Unit 2: Screening & Property Predictions",
+          "content": "Quantification and screening of materials properties. Property prediction and optimization using AI. Materials design and discovery using AI. Handling small, sparse, and low-quality datasets."
+        },
+        {
+          "unit": "Unit 3: Catastrophe Science & Inverse Design",
+          "content": "Materials failure and sustainability analysis. Inverse materials design concepts. Solving inverse design via AI. Cost-effectiveness optimization. Quantum computing concepts in material informatics."
+        },
+        {
+          "unit": "Unit 4: Case Studies & Ethical Limits",
+          "content": "Case studies of material informatics (AI) in different fields (e.g. energy, aerospace, biomedical, etc.). Ethical considerations, data boundaries, and future directions."
+        }
+      ],
+      "lectures": [
+        {
+          "title": "Lecture 01-03: Overview of Material Informatics",
+          "date": "12/01/2026",
+          "url": "https://drive.google.com/file/d/10rcKnWqmk5Hy0MSTJqXo8-H74M2xk72T/view?usp=sharing"
+        },
+        {
+          "title": "Lecture S1: Generative Prediction using Koopman Theory",
+          "date": "19/01/2026",
+          "url": "https://drive.google.com/file/d/1cZaj16h_Sk6r1eZzc-ZFUbtcTkD7J-z2/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 4-5: Koopman Operator & Simple DMD",
+          "date": "22/01/2026",
+          "url": "https://drive.google.com/file/d/1hfJNXZGG6GfeTdLZS3ALU6GrzoUQhBdy/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 6-7: Koopman Prediction in Material Informatics",
+          "date": "26/01/2026",
+          "url": "https://drive.google.com/file/d/1lz4Ddp6zURVGcWDvydx6Za-LBiv1wt7c/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 8: Single Variable Time-Series Prediction (Hankel-DMD)",
+          "date": "02/02/2026",
+          "url": "https://drive.google.com/file/d/1uW-H33hAH_Th4Y_Ejim6yngpuo9gq43a/view?usp=sharing"
+        },
+        {
+          "title": "Lecture S2: Data-Driven Model Engineering",
+          "date": "09/02/2026",
+          "url": "https://drive.google.com/file/d/1zUQ6BYGaNtxK2LeCS5pzdL0czc-1aZHG/view?usp=sharing"
+        },
+        {
+          "title": "DMD Slides: Data-Driven Model Engineering",
+          "date": "09/02/2026",
+          "url": "https://drive.google.com/file/d/1zUQ6BYGaNtxK2LeCS5pzdL0czc-1aZHG/view?usp=drive_link"
+        },
+        {
+          "title": "Lecture 9-10: Analytical Data-Driven Koopman",
+          "date": "12/02/2026",
+          "url": "https://drive.google.com/file/d/10btQz3_e2ZYVLppxqe5Zqhg0wxUBOAZY/view?usp=drive_link"
+        },
+        {
+          "title": "Lecture 11-12: Introduction to Molecular Dynamics",
+          "date": "16/02/2026",
+          "url": "https://drive.google.com/file/d/1I54B2QkDEIKDU_1Vk8Or9NcVrmtz-gaw/view?usp=drive_link"
+        },
+        {
+          "title": "Lecture 13: Basic Molecular Dynamics",
+          "date": "23/02/2026",
+          "url": "https://drive.google.com/file/d/1hnKFxWve7AYl4j8dOCd-JzC-rZAyxlYu/view?usp=drive_link"
+        },
+        {
+          "title": "Lecture 14-15: Catastrophic Algorithms (Sandpile vs. CBO Earthquake Model)",
+          "date": "02/03/2026",
+          "url": "https://drive.google.com/file/d/1t1njTsSTpOiqRU6bVZCJHe98pCBcKfsM/view?usp=drive_link"
+        },
+        {
+          "title": "Lecture 14-18: Catastrophic Algorithms (Extended Study)",
+          "date": "09/03/2026",
+          "url": "https://drive.google.com/file/d/1BSzk1M6NML5LYN_KgRYH-GUJco4YDLPv/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 22: Massively Parallel Material Simulations LAMMPS and OVITO",
+          "date": "23/03/2026",
+          "url": "https://drive.google.com/file/d/1X1Cv0vV0pIWJsyU0P-M8dduBeOsBiz-I/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 24: Agent-Based Simulations using LAMMPS",
+          "date": "30/03/2026",
+          "url": "https://drive.google.com/file/d/1-ZvtPiX5y_kmptXihOqa5jQbOkfN724e/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 26: Post Processing LAMMPS Data Sets",
+          "date": "06/04/2026",
+          "url": "https://drive.google.com/file/d/1SXG6P7WjXRF_BbrG1r8ix1ya77g1PmKw/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 27: Tutorial: Material Discovery with AI",
+          "date": "13/04/2026",
+          "url": "https://drive.google.com/file/d/1x02_HxmbctBWNH9JE-QyohEowLdpwCw6/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 26-30: Material Discovery by AI (Extended Slides)",
+          "date": "20/04/2026",
+          "url": "https://drive.google.com/file/d/1-ZvtPiX5y_kmptXihOqa5jQbOkfN724e/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 31: Vibrational Dynamics, Normal Mode Analysis (NMA)",
+          "date": "27/04/2026",
+          "url": "https://drive.google.com/file/d/1lmd9snw_9iXnuwFd-jeRUOTeB5SqjVov/view?usp=sharing"
+        },
+        {
+          "title": "Lecture 32-34: Ethical Considerations, Limitations, and Future Directions",
+          "date": "04/05/2026",
+          "url": "https://drive.google.com/file/d/1znn-zVH3Ciy3cJJHQO3Tiuo-i4yUdGIt/view?usp=sharing"
+        },
+        {
+          "title": "Extensive Summary Note",
+          "date": "04/05/2026",
+          "url": "https://drive.google.com/file/d/1Is5xz_s14I5ROZDtmghbUwJOtNb5wAZT/view?usp=sharing"
+        }
+      ],
+      "assignments": [
+        {
+          "title": "Assignment 01: Coding MD & Property Screenings",
+          "due": "31/01/2026",
+          "url": "https://drive.google.com/file/d/1DHuBZ-bzmekvveB4S0OiRT2LBufMDDvi/view?usp=sharing"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Summary of Project Review",
+          "url": "https://drive.google.com/file/d/13OLMqsd1L7j0Fj4esVj72-NellyJjNn9/view?usp=sharing"
+        }
+      ],
+      "announcements": []
+    },
+    "23mat204": {
+      "code": "23MAT204",
+      "title": "Mathematics for Intelligent Systems 3",
+      "semester": "Fall 2025",
+      "credits": 4,
+      "students": "BTech AID",
+      "timeline": "TBD",
+      "roomInfo": "Rooms: Section A (Academic Block 4 - LH 15) · Section B (Academic Block 4 - LH 16)",
+      "schedule": [
+        {
+          "slot": "08:50 - 09:40",
+          "monday": "Section A",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
+        },
+        {
+          "slot": "09:40 - 10:30",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "Section B",
+          "thursday": "",
+          "friday": "Section A"
+        },
+        {
+          "slot": "10:30 - 10:45",
+          "break": true
+        },
+        {
+          "slot": "10:45 - 11:35",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
+        },
+        {
+          "slot": "11:35 - 12:25",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": "Section B"
+        },
+        {
+          "slot": "12:25 - 01:15",
+          "monday": "",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
+        },
+        {
+          "slot": "01:15 - 02:05",
+          "break": true
+        },
+        {
+          "slot": "02:05 - 02:55",
+          "monday": "Section B",
+          "tuesday": "",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
+        },
+        {
+          "slot": "02:55 - 03:45",
+          "monday": "Section B",
+          "tuesday": "Section A",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
+        },
+        {
+          "slot": "03:45 - 04:35",
+          "monday": "",
+          "tuesday": "Section A",
+          "wednesday": "",
+          "thursday": "",
+          "friday": ""
+        }
+      ],
+      "syllabus": [
+        {
+          "unit": "Unit 1: Optimization and Linear Algebra",
+          "content": "Direct methods for convex functions - sparsity inducing penalty functions- Constrained Convex Optimization problems - Krylov subspace -Conjugate gradient method - formulating problems as LP and QP - Lagrangian multiplier method-KKT conditions - support vector machines- solving by packages (CVXOPT) - Introduction to RKS - Introduction to DMD-Tensor and HoSVD- Linear algebra for AI."
+        },
+        {
+          "unit": "Unit 2: PDEs and Computational Experiments",
+          "content": "Introduction to PDEs - Formulation and numerical solution methods (Finite difference and Fourier) for PDEs in Physics and Engineering- Computational experiments using Matlab/Excel/Simulink."
+        },
+        {
+          "unit": "Unit 3: Stochastic Processes",
+          "content": "Multivariate Gaussian and weighted least squares - Markov chains - Markov decision Process"
+        },
+        {
+          "unit": "Unit 4: Quantum Computing",
+          "content": "Introduction to quantum computing-Bells inequality-Quantum gates"
+        }
+      ],
+      "lectures": [],
+      "assignments": [],
+      "projects": [],
+      "announcements": [
+        {
+          "text": "Test",
+          "url": "https://drive.google.com/drive/u/1/folders/1HUlZygm721rCA-sn6Cbe6myNqLd7KTY8"
+        }
+      ]
     }
+  }
 }
