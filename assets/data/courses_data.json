@@ -545,7 +545,12 @@
       "lectures": [],
       "assignments": [],
       "projects": [],
-      "announcements": []
+      "announcements": [
+        {
+          "text": "test1",
+          "url": ""
+        }
+      ]
     }
   }
 }
